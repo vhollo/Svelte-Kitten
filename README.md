@@ -1,6 +1,6 @@
 # SVELTE-KITTEN
 
-This is a template project for Svelte-Kitten.
+Svelte-Kitten is my template project for Svelte-Kit.
 What I plan to include:
 
 * [x] MDSVEX
