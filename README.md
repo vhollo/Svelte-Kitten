@@ -4,7 +4,7 @@ Svelte-Kitten is my template project for Svelte-Kit.
 What I plan to include:
 
 * [x] MDSVEX
-* [ ] GSAP
+* [x] GSAP
 * [x] SASS
 * [ ] Documentation Catalogue / Design System
 * [ ] Library of basic components
