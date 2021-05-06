@@ -1,3 +1,22 @@
+# SVELTE-KITTEN
+
+This is a template project for Svelte-Kitten.
+What I plan to include:
+
+* [x] MDSVEX
+* [ ] GSAP
+* [x] SASS
+* [ ] Documentation Catalogue / Design System
+* [ ] Library of basic components
+* [x] Self-hosted fonts
+* [ ] Basic global normalise css
+* [ ] Theming
+
+
+
+
+
+---
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
