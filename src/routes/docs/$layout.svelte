@@ -10,7 +10,7 @@
     export async function load({ page, fetch, session, context }) {
         try {
             const response = await Promise.all(body);
-            let posts = response.reduce((curr, val) => {
+            let categories = response.reduce((curr, val) => {
                 let group = curr.find(g => g.title === `${val.section}`)
                 if (group) {
                     group.navItems.push(val)
@@ -20,7 +20,7 @@
                 return curr
             }, [])
             return {
-                props: {posts}
+                props: {categories}
             };
         }
         catch (err) {
@@ -30,7 +30,7 @@
 </script>
 
 <script>
-    export let posts;
+    export let categories;
     export let sections = ['Welcome', 'Components'];
 </script>
 
@@ -39,9 +39,9 @@
     <div class="sectionWrap">
         <h4 class="sectionTitle">{section}</h4>
         <ul class="navItems">
-            {#each posts as group}
-                {#if group.title === section}
-                    {#each group.navItems as navItem}
+            {#each categories as category}
+                {#if category.title === section}
+                    {#each category.navItems as navItem}
                         <li>
                             <a href="/docs/{navItem.slug}">{navItem.title}</a>
                         </li>
