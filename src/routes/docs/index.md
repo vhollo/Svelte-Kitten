@@ -1,3 +1,9 @@
+---
+title: 'Home'
+slug: ''
+outline: 'About Svelte-kitten'
+section: 'Welcome'
+---
 # SVELTE-KITTEN
 
 A Svelte-Kit template project that includes:

@@ -1,8 +1,8 @@
 ---
-title: 'Button Component'
+title: 'Buttons'
 slug: 'button'
-scrapeTODOs: true
-scrapeUSE: true
+outline: 'Demonstration of the button components'
+section: 'Components'
 ---
 
 <script>
