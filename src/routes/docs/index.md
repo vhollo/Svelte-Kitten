@@ -1,8 +1,12 @@
-# SVELTE-KITTEN Template
+# SVELTE-KITTEN
+
+A Svelte-Kit template project that includes:
 
 * [x] MDSVEX
 * [x] GSAP
 * [x] SASS
+* [ ] Documentation Catalogue / Design System
+* [ ] Library of basic components
 * [x] Self-hosted fonts
-* [ ] Skeleton css (without the grid)
+* [ ] Basic global normalise css
 * [ ] Theming
