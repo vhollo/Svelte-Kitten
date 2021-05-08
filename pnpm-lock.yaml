@@ -2,18 +2,18 @@ lockfileVersion: 5.3
 
 specifiers:
   '@sveltejs/kit': next
-  mdsvex: ^0.9.0
+  mdsvex: ^0.9.3
   rehype-autolink-headings: ^5.0.1
   rehype-slug: ^4.0.1
   remark-abbr: ^1.4.1
   remark-github: ^10.0.1
   sass: ^1.32.12
-  svelte: ^3.34.0
+  svelte: ^3.38.2
   svelte-preprocess: ^4.7.3
-  vite: ^2.2.3
+  vite: ^2.2.4
 
 devDependencies:
-  '@sveltejs/kit': 1.0.0-next.100_svelte@3.38.2+vite@2.2.4
+  '@sveltejs/kit': 1.0.0-next.102_svelte@3.38.2
   mdsvex: 0.9.3_svelte@3.38.2
   rehype-autolink-headings: 5.0.1
   rehype-slug: 4.0.1
@@ -36,13 +36,12 @@ packages:
       picomatch: 2.2.3
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.100_svelte@3.38.2+vite@2.2.4:
-    resolution: {integrity: sha512-r8G6bIlmIUiRS8JA5Hp+AASNWuuMTua64JP4i2fPTWSvqm/+F8+ZetXgtFy+RNabu5lU/Ua5YVEwBU6rgFVpDA==}
+  /@sveltejs/kit/1.0.0-next.102_svelte@3.38.2:
+    resolution: {integrity: sha512-zLCPiKguhN3LjOTnAqudYm9uhkc3O1ELAV8SkXvs1O/a7hWSMFlbuF0aWXE8g6f79aCKjihd29RrdFkLnaZrog==}
     engines: {node: '>= 12.17.0'}
     hasBin: true
     peerDependencies:
-      svelte: ^3.34.0
-      vite: ^2.2.3
+      svelte: ^3.38.2
     dependencies:
       '@sveltejs/vite-plugin-svelte': 1.0.0-next.9_svelte@3.38.2+vite@2.2.4
       cheap-watch: 1.0.3

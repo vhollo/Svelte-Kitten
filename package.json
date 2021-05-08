@@ -8,15 +8,15 @@
   },
   "devDependencies": {
     "@sveltejs/kit": "next",
-    "mdsvex": "^0.9.0",
+    "mdsvex": "^0.9.3",
     "rehype-autolink-headings": "^5.0.1",
     "rehype-slug": "^4.0.1",
     "remark-abbr": "^1.4.1",
     "remark-github": "^10.0.1",
     "sass": "^1.32.12",
-    "svelte": "^3.34.0",
+    "svelte": "^3.38.2",
     "svelte-preprocess": "^4.7.3",
-    "vite": "^2.2.3"
+    "vite": "^2.2.4"
   },
   "type": "module"
 }
