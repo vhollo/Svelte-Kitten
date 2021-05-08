@@ -29,7 +29,7 @@ section: 'Components'
 <Button type="secondaryDark">Click Me</Button>
 <Button type="primary">Click Me</Button>
 ```
-### Useage Guidelines
+### Usage Guidelines
 - Primary button is the default
 - When using primary and secondary buttons, the primary button should always be on the right.
 ### Dev Comments
