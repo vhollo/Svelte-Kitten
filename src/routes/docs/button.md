@@ -31,7 +31,8 @@ section: 'Components'
 ```
 ### Usage Guidelines
 - Primary button is the default
-- When using primary and secondary buttons, the primary button should always be on the right.
+- When offering primary and secondary actions together, the primary button should always be on the right.
+- A button is a button and a link is a link - do not use buttons as links
 ### Dev Comments
 - TODO: scrape and parse comments from the imported component file
 - TODO: This will show a list of comments in the component file
