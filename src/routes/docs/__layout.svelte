@@ -57,6 +57,7 @@
 </main>
 
 <style lang="scss">
+    @import "../../styles/prism.css";
     nav {
         padding: 1rem;
         color: #ffffff;
